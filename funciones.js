@@ -7,3 +7,7 @@ while (deuda > sumaPagos) {
     sumaPagos = sumaPagos + pago
     saldo = deuda - sumaPagos
 }
+
+if (sumaPagos == deuda){
+        document.getElementById("h3").innerHTML="Su deuda a sido saldada"
+}
